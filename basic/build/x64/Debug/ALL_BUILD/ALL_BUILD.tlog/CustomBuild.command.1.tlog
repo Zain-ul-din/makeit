@@ -1,0 +1,10 @@
+^D:\GIT REPO\MAKEIT\BASIC\CMAKELISTS.TXT
+setlocal
+D:\System\C_MAKE\bin\cmake.exe "-SD:/Git Repo/makeit/basic" "-BD:/Git Repo/makeit/basic/build" --check-stamp-file "D:/Git Repo/makeit/basic/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

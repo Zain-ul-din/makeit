@@ -1,0 +1,3 @@
+D:/Git Repo/makeit/basic/build/CMakeFiles/BasicProject.dir
+D:/Git Repo/makeit/basic/build/CMakeFiles/ALL_BUILD.dir
+D:/Git Repo/makeit/basic/build/CMakeFiles/ZERO_CHECK.dir
