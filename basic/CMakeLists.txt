@@ -14,9 +14,20 @@ set (CMAKE_CXX_STANDARD_REQUIRED true)
 project(BasicProject)
 
 # add execultable file
-add_executable (BasicProject "./index.cpp")
+add_executable (BasicProject 
+    "./index.cpp"
+    "./helper.hpp"
+)
 
-# cmake .. # config project
-# cmake --build . # build actual project
+# How to compile
+# mkdir build && cd build
+# cmake ..          # config project
+# cmake --build .   # build actual project
+
+# Mmake Specify Generator flag
+
+# cmake --help
+# cmake -G Ninja  .. 
+# cmake --build .
 
 
