@@ -1,0 +1,3 @@
+D:/Git Repo/makeit/opengl_startup/cmake-build-debug/CMakeFiles/opengl_startup.dir
+D:/Git Repo/makeit/opengl_startup/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git Repo/makeit/opengl_startup/cmake-build-debug/CMakeFiles/rebuild_cache.dir
